@@ -1,0 +1,25 @@
+body{
+  background-image: url(images/never_stop_dreaming.png);
+  font-family: 'Permanent Marker', cursive;
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: black;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.menu{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-top: 40px;
+  height: 23px;
+  border-bottom: solid transparent 2px;
+  transition: all 0.3s ease-in-out;
+}

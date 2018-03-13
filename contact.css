@@ -1,0 +1,57 @@
+body{
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+  }
+  .menu{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 40px;
+    height: 23px;
+    border-bottom: solid transparent 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu:hover{
+    border-color: white;
+  }
+  .contact{
+      display: flex;
+      justify-content: space-around;
+  }
+  .ContactContainer{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 60%;
+  }
+.ContactIcon > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 10px solid #ddd;
+    opacity: 0.8;
+}
+.ContactIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    padding-top: 8%;   
+}
+.contactTitle{
+    text-align: center;
+}

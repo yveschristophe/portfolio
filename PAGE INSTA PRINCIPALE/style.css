@@ -1,0 +1,237 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  header{
+    width: 1284px;
+    height: 77px;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #allel{
+    width: 1010px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+  }
+  #logo{
+    width: 176px;
+  }
+  #Logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  #Instagram{
+    height: 35px;
+    border-left: solid 1px #959595;
+  }
+  #explore{
+    height: 24px;
+  }
+  #like{
+    height: 24px;
+  }
+  #Activity{
+    height: 35px;
+  }
+  #option{
+    width: 176px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #searchbar{
+    position: absolute;
+    padding: 5px;
+    width: 199px;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    background-color: #fafafa;
+    }
+    ::-webkit-input-placeholder {
+      text-align: center;
+     }
+     #iconloop{
+       position: relative;
+       margin-left: 70px;
+       margin-top: 5px;
+     }
+  }
+  #PhotoProfil{
+    width: 152px;
+    height: 152px;
+    }
+  #PP{
+    border: solid 2px #e6e6e6;
+    border-radius: 100px;
+  }
+  #profil{
+    height: 100%;
+    margin-left: 152px;
+    margin-right: 152px;
+    padding: 35px;
+    display: flex;
+  
+  }
+  #Profilcontent{
+      background-color : #fafafa;
+  }
+  section{
+    margin-left: 180px;
+  }
+  #username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    justify-content: space-around;
+  }
+  #follow{
+    width: 94px;
+    height: 28px;
+    background-color: #18a5c7;
+    color: white;
+    border: 1px solid  #18a5c7;
+    border-radius: 3px;
+  }
+  #certif{
+    width: 18px;
+    height: 18px;
+  }
+  #petitpoints{
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: white;
+  }
+  #site{
+    font-weight: bolder;
+    color: #4a4b87;
+    text-decoration: none;
+  }
+  .ContenuProfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+  .image{
+    width: 293px;
+    height: 293px;
+    filter: brightness(100%);
+    transition:  filter 1s;
+  }
+  
+  .image:hover{
+    filter: brightness(50%);
+  }
+  .troisImages{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  #margin{
+    margin-left: 158px;
+    margin-right: 158px;
+    width: 935px;
+    height: 450px;
+  }
+  #all{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  #Photocomment1{
+    width: 600px;
+    height: 398px;
+    margin-top: 25px;
+  }
+  #sectioncom{
+    width: 335px;
+    height: 100%;
+    background-color: white;
+  }
+  #check{
+    width: 12px;
+    height: 12px;
+  }
+  #FollowCommentheader{
+    color : #3897f0;
+  }
+  .commentheader{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #efefef;
+      height: 78px;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-weight: bolder;
+    }
+  .commentheader > img{
+    margin-right: 10px;
+  }
+  .commentheader > p {
+    margin-right: 5px;
+  }
+  #fonctioncomment{
+    width: 287px;
+    height: 214px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+  }
+  .container{
+    width: 287px;
+    height: 324px;
+    padding: 24px;
+  }
+  #commentlike{
+    height: 80px;
+    border-bottom: 1px solid #efefef;
+  }
+  .CommentLike{
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+  }
+  #nombreDeLike{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #date{
+    font-size: 8px;
+    color : grey;
+  }
+  #ProfilHeader{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #efefef;
+  }
+  #AddComment{
+    border-style: none;
+    margin-top: 12px;
+  }
+  .AjoutComm{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+  }
+  #coreOptions{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 24px;
+  }
+  

@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://res.cloudinary.com/twenty20/image/private/t_standard-fit/v1485678720/photosp/10cc5cbc-6cc8-45b2-ae3d-e2cc85b195c3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Permanent Marker', cursive;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+  }
+  .menu{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 40px;
+    height: 23px;
+    border-bottom: solid transparent 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu:hover{
+    border-color: white;
+  }
+  .proposTitle{
+      text-align: center;
+  }
+  .proposContent{
+      text-align: center;
+      width: 40%;
+  }
+  .proContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }

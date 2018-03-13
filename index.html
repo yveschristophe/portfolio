@@ -2,7 +2,10 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
   <title>Document</title>
@@ -11,14 +14,13 @@
   <div class="ContainerPart1">
   <!-- HEADER -->
 <header>
-  <a href="#" class="menu"><i class="fa fa-home" aria-hidden="true"></i> ACCUEIL</a>
+  <a href="index.html" class="menu"><i class="fa fa-home" aria-hidden="true"></i> ACCUEIL</a>
   <a href="travaux.html" class="menu"><i class="fa fa-book" aria-hidden="true"></i> TRAVAUX</a>
-  <img src="images/dvsn.png" alt="Logo YCS" class="logo">
-  <a href="#" class="menu">
+  <a href="index.html"><img src="images/dvsn.png" alt="Logo YCS" class="logo"></a>
+  <a href="propos.html" class="menu">
 <i class="fa fa-question-circle" aria-hidden="true"></i> A PROPOS</a>
-  <a href="#" class="menu"><i class="fa fa-envelope" aria-hidden="true"></i> CONTACT</a>
+  <a href="contact.html" class="menu"><i class="fa fa-envelope" aria-hidden="true"></i> CONTACT</a>
 </header>
-
 <!-- CORPS DU PORFOLIO -->
 <div id="container">
 <div id="titre">
@@ -47,16 +49,10 @@
 <div class="ContainerDescription">
 <img src="images/IMG_20180117_140540.jpg" alt="" id="PhotoProfil">
 <p>Je me présente : SABAN Yves-Christophe j'effectue en ce moment la formation Simplon.</br>
-  Ma formation au sein de l’école Simplon m’a fourni une vision pratique du métier</br>
-   à travers les nombreuses mises en situations effectuées.</br>
-   Mon autonomie n’entrave en rien ma capacité à travailler</br>
-   en équipe grâce aux méthodes agile et à l’utilisation de compétences tels que :</br>
-_ HTML 5</br>
-_ CSS 3</br>
-_ Javascript</br>
-_ React</br>
-_ PHP</br>
-_ Symfony</p>
+  J'ai découvert le code cette année et j'y prends beaucoup de plaisir. 
+  Je tend plus a me spécialiser dans le webdesign mais certains autres
+   domaines dans le code me passionnent tels que les objets connectés
+    ou le devOPS.</p>
 </div>
 <!--Collabration-->
 <div id="contact">
@@ -64,7 +60,7 @@ _ Symfony</p>
 </div>
 <div class="CollaborationContainertranspa">
   <h2>Besoin de design pour un projet ?</h2>
-  <a href="#"id="lienContact" >Me contacter</a>
+  <a href="contact.html"id="lienContact" >Me contacter</a>
 </div>
 </div>
 
@@ -79,6 +75,8 @@ _ Symfony</p>
 <div class="CollaborationContainer2">
 </div>
 </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="js/index.js" type="text/javascript"></script>
 </body>
 </html>

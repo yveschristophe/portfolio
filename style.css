@@ -167,6 +167,7 @@ border-color: transparent transparent #110526  transparent;
   padding: 20px;
   color: black;
   text-align: center;
+  width: 30%;
 }
 .ContainerDescription > img{
   width: 100px;

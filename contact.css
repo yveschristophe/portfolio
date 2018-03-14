@@ -37,6 +37,16 @@ body{
     border: 10px solid #ddd;
     opacity: 0.8;
 }
+.ContactIcon > a > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 10px solid #ddd;
+    opacity: 0.8;
+}
+.ContactIcon > p{
+    font-size: 80%;
+}
 .ContactIcon{
     display: flex;
     flex-direction: column;

@@ -26,6 +26,7 @@ body{
   }
   .ContactContainer{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
       width: 60%;
@@ -65,3 +66,9 @@ a{
 .contactTitle{
     text-align: center;
 }
+
+@media only screen and (max-width: 780px){
+    .contactContainer{
+        flex-direction: column;
+    }
+  }

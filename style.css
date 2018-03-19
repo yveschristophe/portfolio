@@ -79,9 +79,9 @@ h1:hover{
   font-size: 20px;
 }
 .langages{
-  margin-left: 300px;
+  margin-left: 25%;
 display: flex;
-width: 700px;
+width: 50%;
 justify-content: space-around;
 align-items: flex-end;
 height: 193px;
@@ -223,5 +223,20 @@ margin:50px;
   100% {
       -moz-box-shadow: 0 0 0 0 rgba(91, 141, 235, 0.4);
       box-shadow: 0 0 0 0 rgba(91, 141, 235, 0.4);
+  }
+}
+
+@media only screen and (max-width: 640px){
+  .langages{
+    margin: 0;
+    width: 100%;
+  }
+  #socialMedia{
+    flex-direction: column;
+  }
+  .IconMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -53,6 +53,8 @@ h1{
   height: 75px;
   border: 2px solid white;
   transition: width 1s, height 1s;
+  padding: 5%;
+  text-align: center;
 }
 h1:hover{
   width: 500px;
@@ -237,6 +239,13 @@ margin:50px;
   .IconMedia{
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    display: none;
+  }
+  header{
+    flex-direction: column;
     align-items: center;
   }
 }
